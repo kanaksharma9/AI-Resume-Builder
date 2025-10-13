@@ -1,0 +1,204 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 40px;
+  min-width: 89rem;
+}
+
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 9rem;
+}
+
+.resume-container {
+  width: 595px;
+  height: 842px;
+  background-color: #fff;
+  padding: 40px;
+  font-family: 'Georgia', serif;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume-header h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section h2 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.skill-pill {
+  font-size: 14px;
+}
+
+.landing-container {
+  min-width: 95rem;
+  height: 100vh;
+  background: linear-gradient(135deg, #0041c2, #007bff);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ffcb05;
+  color: #000;
+  font-weight: bold;
+  padding: 16px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e0b700;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 94rem;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0057ff, #00c6ff);
+  color: #333;
+}
+
+.resume-form {
+  background: white;
+  padding: 40px 60px;
+  border-radius: 1%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 600px;
+  margin: 2%;
+}
+
+.resume-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #002147;
+}
+
+.resume-form input,
+.resume-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.resume-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.job-entry {
+  margin-bottom: 30px;
+  border-left: 4px solid #0057ff;
+  padding-left: 12px;
+}
+
+.add-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #00a0cc;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0057ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #003bb3;
+}
