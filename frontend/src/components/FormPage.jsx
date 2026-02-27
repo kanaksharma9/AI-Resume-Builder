@@ -41,7 +41,7 @@ function FormPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const aiRes = await fetch("http://localhost:5000/api/ai/summary", {
+      const aiRes = await fetch("https://ai-resume-builder-yggm.onrender.com/api/ai/summary", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ experience: formData.experience })
@@ -54,7 +54,7 @@ function FormPage() {
         experience: generated.experience
       };
 
-      const res = await fetch("http://localhost:5000/api/resume", {
+      const res = await fetch("https://ai-resume-builder-yggm.onrender.com/api/resume", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(completeFormData)

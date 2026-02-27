@@ -11,7 +11,7 @@ function DownloadPage() {
   useEffect(() => {
     const fetchResume = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/resume/${location.state.resumeId}`);
+        const res = await fetch(`https://ai-resume-builder-yggm.onrender.com/api/resume/${location.state.resumeId}`);
         const data = await res.json();
         setResume(data);
       } catch (err) {
